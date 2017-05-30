@@ -65,11 +65,19 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="basilio.aspx" />
     <Content Include="Global.asax" />
     <Content Include="martincabro1.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="basilio.aspx.cs">
+      <DependentUpon>basilio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="basilio.aspx.designer.cs">
+      <DependentUpon>basilio.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
